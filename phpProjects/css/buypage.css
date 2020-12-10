@@ -1,0 +1,162 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+    font-family: Google Sans;
+    
+  }
+  body{
+      color:#eee;
+      background: linear-gradient(360deg, rgba(0, 0, 0, 0) 0%, rgb(240, 167, 9) 100%);
+      background: #111; 
+  }
+  nav{
+    padding: 0px;
+    border-bottom: 5px solid red;;
+  }
+  ul {
+  list-style-type: none;
+    background: black;
+    height: 80px;
+  
+  }
+  
+  li a:hover {
+    color: orange
+  }
+ 
+  
+  
+  li a {
+  display: inline;
+  color: white;
+  display:inline;
+  text-decoration: none;
+    
+  }
+  .nav-bar{
+    display: inline;
+    float : right;
+    margin-left :20px;
+    padding: 30px;
+  }.logos{
+    height:85px;
+    width:100px;
+  }
+  
+  
+  h1{
+      margin-top: 5%;
+    text-align: center;
+    padding: 10px 5px;
+  
+  }
+
+  .footer
+  {
+    background-color: #111;
+    border-top:5px solid red;
+    color: #eee;
+    text-align: center;
+    height:82px;
+  }
+  .footer p{
+    padding-top:37px;
+  }
+  .form{
+    position: relative;
+    width: 100%;
+    max-width: 420px;
+    background: #fff;
+    padding: 30px 40px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, .14);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .14);
+    margin: auto;
+    padding: 10px;
+  }
+
+  .button{
+    height: 41px;
+    width:47%;
+    border-radius: 55px;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+    }
+    .button:hover{
+      background: orange;
+  
+    }
+    .forms{
+      margin-left: auto;
+      margin-right: auto;
+      
+    }
+    .textError{
+      float:right;
+      color:red;
+    }
+  
+    /* forms */
+    input[type=text],input[type=email], select, textarea {
+      width: 100%; 
+      padding: 10px;
+      margin-top: 10px; 
+      border: 1px solid #ccc; 
+      border-radius: 25px; 
+      box-sizing: border-box; 
+      margin-top: 6px; 
+      margin-bottom: 16px; 
+      color:#333;
+      background-color:#eee;
+      resize: vertical 
+    }
+    
+    /* Style the submit button with a specific background color etc */
+    input[type=submit] {
+      background-color: orange;
+      margin:auto;
+      width: 50%;
+    }
+    
+    /* When moving the mouse over the submit button, add a darker green color */
+   .button:hover {
+      color:#eee;
+      
+    }
+    
+    /* Add a background color and some padding around the form */
+    .contai {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+      width:41%;
+      height:50%;
+      margin:auto;
+      display:block;
+      margin-top:50px;
+      box-shadow:0px 0px 10px 0px black;
+    }
+    .formh1{
+      color:#111;
+    }
+    .lable{
+      color:#111;
+    }
+    .loginss{
+      font-size: 24px;
+      width: 100%;
+      max-width: 300px;
+      height: 60px;
+      border-radius: 14px;
+      border: 3px solid var(--colorLight);
+      color: var(--colorLight);
+      background: orange;
+      margin: 10px auto;
+      display: block;
+      outline: 0;
+      cursor: pointer;
+      margin-top: 5px !important;
+    }
